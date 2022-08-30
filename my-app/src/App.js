@@ -11,8 +11,9 @@ export default function App(){
     const thingsElements = thingsArray.map((thing)=>{
         return <p key={thing}>{thing}</p>
     })
-  return (
-    <div>
+    }
+    return(
+        <div>
         <button onClick={addItems}>Add Items</button>
         {thingsElements}
     </div>
